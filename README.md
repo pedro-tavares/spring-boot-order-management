@@ -10,6 +10,8 @@ JPA/Hibernate will auto-create the tables on first run but not the schema
 
 Run the application from the cmd line with:
 java -jar spring-boot-order-management-0.0.1-SNAPSHOT.jar
+OR
+mvn spring-boot:run
 
 The application end-point is available at:
 http://localhost:8080/api/orders
